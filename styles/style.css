@@ -56,7 +56,7 @@ body{
     color: white;
 }
  .header-images{
-    background-image: url(../Circle\ design.svg);
+    /* background-image: url(../Circle\ design.svg); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 440px;
