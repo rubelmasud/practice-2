@@ -13,11 +13,11 @@ body{
  ----------------------*/
 
 .navbar{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 0px 20px;
+    padding: 0px 150px;
     align-items: center;
     padding-top: 50px;
 }
@@ -56,7 +56,7 @@ body{
     color: white;
 }
  .header-images{
-    /* background-image: url(../Circle\ design.svg); */
+    background-image: url(../Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 440px;
@@ -74,5 +74,149 @@ body{
     margin: 100px auto;
     align-items: center;
   }
+  /*-----------
+   popular market end 
+   -------------*/
+.Collection-conteinar{
+    width: 1047px;
+    height: 1662px;
+    margin: auto;
+}
 
-   
+.colletion-title{
+    text-align: center;
+    padding: 20px 0px;
+}
+.collection-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+  .main-box{
+    width: 329px;
+    height: 476px;
+    padding: 15px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+  }
+  .product-name{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin-bottom: 6px;
+  }
+
+  .product-prize{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  .product-ratting{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 5px;
+  }
+  .product-ratting i{
+    color: #FB8200;
+  }
+  .product-ratting p{
+    color: #5E6366;
+  }
+  .product-details{
+    font-size: 14px;
+    font-weight: 700;
+    align-items: center;
+    letter-spacing: 0.018em;
+  }
+
+  .next{
+    color: #E02C6D;
+    justify-content:flex-end;
+    text-align: end;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  /*--------------------
+  end colection -conteinar 
+  -----------------------*/
+  
+.Featured-products-conteinar{
+    width: 1110px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 90px;
+    margin-top: 30px;
+}
+
+.imgge-conteinar{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+.banner-conteinar-title{
+    font-weight: 700;
+    font-size: 23px;
+    color: #0A0826;
+}
+
+.banner-conteinar-details{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 15px;
+}
+
+.btn-2{
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+
+/*-------------------
+ footer start
+ ---------------------- */
+ .footer-conteinar{
+    width: 100%;
+    height: 220px;
+    background: #0A0826;
+    color: #fff;
+    text-align: center;
+    padding-top: 55px;
+    margin-top: 100px;
+ }
+ .footer-title{
+    font-weight: 700;
+    font-size: 24px;
+ }
+
+ .footer-intro{
+    font-size: 14px;
+    margin-bottom: 17px;
+ }
+
+ .footer-icon i{
+    margin: 0 10px;
+ }
+
+ /* media queary */
+
+ 
+
+
+
+
+
+ 
